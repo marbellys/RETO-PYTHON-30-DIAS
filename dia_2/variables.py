@@ -89,5 +89,29 @@ exp = num_one ** num_two
 floor_division = num_one // num_two
 
 
+#The radius of a circle is 30 meters. 
+#Calculate: the area of a circle and assign the value to a variable name of area_of_circle
+pi = 3.1416
+r = 30
+area_of_circle = pi * r**2
+print(f'El area de un circulo con radio de {r} metros es: {area_of_circle} ')
 
+#Calculate the circumference of a circle and assign the value to a variable name of circum_of_circle
+#c=2r* pi
+circum_of_circle = 2*r*pi
+print(f'La circunferencia del circulo con radio de {r} metros es: {circum_of_circle} ')
+
+#Take radius as user input and calculate the area.
+radio = input('Radio de la circunferencia:')
+
+area_of_circle = pi * (float(radio)**2)
+print(f'El area de lacircunferencia de radio {radio}, es {area_of_circle}')
+
+#Use the built-in input function to get first name, last name, country and age from a user and store the value to their corresponding variable names
+first_name = input('Nombre:')
+last_name = input('Apellido:')
+country = input('Pais:')
+age = input('Edad:')
+
+#Run help('keywords') in Python shell or in your file to check for the Python reserved words or keywords
 
